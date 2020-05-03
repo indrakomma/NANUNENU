@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="urls" value="http://newtours.demoaut.com/mercurywelcome.php"/>
+  <parameter name="rowids" value="4.0"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="classnames" value="testcase4"/>
+  <test name="testcase4(failed)">
+    <parameter name="urls" value="http://newtours.demoaut.com/mercurywelcome.php"/>
+    <parameter name="rowids" value="4.0"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="classnames" value="testcase4"/>
+    <classes>
+      <class name="testcases.testcase1">
+        <methods>
+          <include name="initiate"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- testcases.testcase1 -->
+      <class name="testcases.testcase4">
+        <methods>
+          <include name="test1"/>
+          <include name="testcasenum4"/>
+          <include name="initiate"/>
+          <include name="test3"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- testcases.testcase4 -->
+    </classes>
+  </test> <!-- testcase4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

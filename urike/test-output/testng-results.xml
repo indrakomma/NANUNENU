@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67558" started-at="2020-05-03T09:22:03Z" finished-at="2020-05-03T09:23:11Z">
+    <groups>
+    </groups>
+    <test name="testcase1" duration-ms="67558" started-at="2020-05-03T09:22:03Z" finished-at="2020-05-03T09:23:11Z">
+      <class name="utils.excelhandling">
+        <test-method status="PASS" signature="collectingdata()[pri:0, instance:utils.excelhandling@55f3ddb1]" name="collectingdata" duration-ms="672" started-at="2020-05-03T14:52:03Z" finished-at="2020-05-03T14:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectingdata -->
+        <test-method status="PASS" signature="createxml()[pri:0, instance:utils.excelhandling@55f3ddb1]" name="createxml" duration-ms="6" started-at="2020-05-03T14:52:04Z" finished-at="2020-05-03T14:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createxml -->
+        <test-method status="PASS" signature="testngrun()[pri:0, instance:utils.excelhandling@55f3ddb1]" name="testngrun" duration-ms="66861" started-at="2020-05-03T14:52:04Z" finished-at="2020-05-03T14:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testngrun -->
+      </class> <!-- utils.excelhandling -->
+    </test> <!-- testcase1 -->
+  </suite> <!-- Suite -->
+</testng-results>
